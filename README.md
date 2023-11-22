@@ -83,6 +83,7 @@ Pip install requirements:
 ```
 pip install -r requirements.txt
 pip install -r ./thirdparty/gtsam/python/requirements.txt
+pip install -r ./thirdparty/instant-ngp/requirements.txt #自己加的
 ```
 
 Compile ngp (you need cmake>3.22):
