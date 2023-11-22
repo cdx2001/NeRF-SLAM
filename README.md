@@ -86,7 +86,7 @@ pip install -r ./thirdparty/gtsam/python/requirements.txt
 pip install -r ./thirdparty/instant-ngp/requirements.txt #自己加的
 ```
 
-Compile ngp (you need cmake>3.22):
+Compile ngp **(you need cmake>3.22)**:
 ```
 cmake ./thirdparty/instant-ngp -B build_ngp
 cmake --build build_ngp --config RelWithDebInfo -j
